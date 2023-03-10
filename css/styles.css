@@ -1,0 +1,29 @@
+* {
+  font-family: 'Calibri';
+}
+
+table, tr, td {
+  border: solid 1px black;
+}
+
+td {
+  text-align: center;
+}
+
+.div4blue {
+  background-color: rgb(189, 214, 236);
+}
+
+p,
+dt {
+    font-weight: bold;
+}
+
+dl,
+dd {
+    font-size: 0.9rem;
+}
+
+dd {
+    margin-bottom: 1em;
+}

@@ -1,11 +1,8 @@
 const bodyNodes = () => {
+  for (let i = 0; i <document.body.childNodes.length; i++) {
+    console.log(document.body.childNodes[i])
+    
 
-  var nodes = document.body.childNodes;
-  
-  nodes.forEach((node) => {
-  
-  console.log(node);
-  
-  });
-  
   }
+}
+bodyNodes();
